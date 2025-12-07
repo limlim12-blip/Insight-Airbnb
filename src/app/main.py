@@ -138,7 +138,7 @@ if __name__ == "__main__":
         p{
             font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
             font-size: 12.4em;
-            margin: 0px !important;
+            line-height: 1.3
         }
 
         .listings-name{
