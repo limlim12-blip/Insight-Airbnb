@@ -1,21 +1,9 @@
-from io import BytesIO
-from PIL import Image, ImageOps
-import time
-from turtle import update
-
-import requests
 from load_data import load_review, load_listings, scrape_data
-import pandas as pd
-import numpy as np
-import pages.map_smth
 import streamlit as st
-import time
 from load_data import load_review, load_listings, scrape_data
-from Create_map import create_map, load_data, create_map_1
-from display_stat import city_display_data, listings_display_data, neibourhood_display_data
+from Create_map import create_map_1
+from display_stat import city_display_data, listings_display_data
 import streamlit as st
-from streamlit_folium import st_folium
-from streamlit_folium import st_folium
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.feature_extraction.text import CountVectorizer

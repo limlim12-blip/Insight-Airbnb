@@ -1,5 +1,4 @@
 import os
-from turtle import color
 from load_data import load_fig
 import streamlit as st
 from streamlit_extras.stylable_container import stylable_container
