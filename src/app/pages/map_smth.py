@@ -167,7 +167,7 @@ if __name__ == "__main__":
     if 'city' not in st.session_state:
         st.session_state['city'] = 'Singapore, Singapore, Singapore'
     if 'data' not in st.session_state:
-        st.session_state['data'] = '1'
+        st.session_state['data'] = None
 
 
 # load data
