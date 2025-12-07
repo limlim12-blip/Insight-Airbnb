@@ -7,4 +7,4 @@ baseFontSize=12
 backgroundColor =  "#ffffffff"
 font = "sans serif"
 [server]
-baseUrlPath = "map_smth"
+# baseUrlPath = "map_smth"
