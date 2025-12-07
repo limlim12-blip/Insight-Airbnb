@@ -1,91 +1,13 @@
-aiohappyeyeballs==2.6.1
-aiohttp==3.13.2
-aiosignal==1.4.0
-altair==5.5.0
-attrs==25.4.0
-beautifulsoup4==4.14.2
-blinker==1.9.0
-bokeh @ file:///home/task_175710194212612/conda-bld/bokeh_1757102799920/work
-Bottleneck @ file:///home/task_176193795831906/conda-bld/bottleneck_1761938007449/work
-branca==0.8.2
-brotlicffi @ file:///home/task_176174500271162/conda-bld/brotlicffi_1761745022849/work
-cachetools==6.2.1
-certifi==2025.10.5
-cffi @ file:///home/task_176183215235376/conda-bld/cffi_1761832773734/work
-charset-normalizer==3.4.4
-click==8.3.0
-cloudpickle @ file:///croot/cloudpickle_1751309439603/work
-contourpy @ file:///croot/contourpy_1732540045555/work
-cycler==0.12.1
-dask @ file:///home/task_176183760793925/conda-bld/dask-core_1761837620407/work
-distributed @ file:///home/task_176174383638705/conda-bld/distributed_1761744494377/work
-folium==0.20.0
-fonttools==4.60.1
-frozenlist==1.8.0
-fsspec @ file:///home/task_176243240479265/conda-bld/fsspec_1762432436009/work
-geopandas==1.1.1
-gitdb==4.0.12
-GitPython==3.1.45
-HeapDict @ file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work
-idna==3.11
-importlib_metadata @ file:///croot/importlib_metadata-suite_1732633488278/work
-Jinja2 @ file:///croot/jinja2_1741710844255/work
-jsonschema==4.25.1
-jsonschema-specifications==2025.9.1
-kiwisolver==1.4.9
-lmdb @ file:///croot/python-lmdb_1736540601428/work
-locket @ file:///work/ci_py311/locket_1676827274546/work
-lxml==6.0.2
-lz4 @ file:///croot/lz4_1736366683208/work
-MarkupSafe==3.0.3
-matplotlib==3.10.7
-mkl-service==2.5.2
-mkl_fft @ file:///home/task_176159258761192/conda-bld/mkl_fft_1761592901799/work
-mkl_random @ file:///home/task_176159293348456/conda-bld/mkl_random_1761592947335/work
-msgpack @ file:///croot/msgpack-python_1750958623279/work
-multidict==6.7.0
-narwhals==2.11.0
-numexpr @ file:///home/task_176216559693183/conda-bld/numexpr_1762165608108/work
-numpy @ file:///home/task_176252782621591/conda-bld/numpy_and_numpy_base_1762528499890/work/dist/numpy-2.3.4-cp311-cp311-linux_x86_64.whl#sha256=db07576afc41ffd8e4e72141959de8d6882b518fa8d1875ae9fbd3acac72b086
-packaging @ file:///home/task_176104885106445/conda-bld/packaging_1761049078006/work
-pandas @ file:///home/task_176233228033452/conda-bld/pandas_1762332325070/work/dist/pandas-2.3.3-cp311-cp311-linux_x86_64.whl#sha256=920644f9267829793147d85d419f7e25d0fb8c679dd7fa07f7532a94488a1690
-partd @ file:///croot/partd_1736803412080/work
-pillow @ file:///home/task_176252754139500/conda-bld/pillow_1762528238884/work
-polars @ file:///home/task_176242282993003/conda-bld/polars-split_1762422845693/work
-polars-runtime-32 @ file:///home/task_176242282993003/conda-bld/polars-split_1762422845693/work/polars-runtime-32
-propcache==0.4.1
-protobuf==6.33.0
-psutil @ file:///home/task_176189642143064/conda-bld/psutil_1761896460324/work
-pyarrow @ file:///home/task_175983334304433/conda-bld/pyarrow_1759833582890/work/python
-pycparser @ file:///home/task_175749606196006/conda-bld/pycparser_1757496076770/work
-pydeck==0.9.1
-pyogrio==0.11.1
-pyparsing==3.2.5
-pyproj==3.7.2
-PySocks @ file:///home/task_176175228059944/conda-bld/pysocks_1761753009523/work
-python-dateutil @ file:///croot/python-dateutil_1716495738603/work
-pytz @ file:///croot/pytz_1752135852232/work
-PyYAML @ file:///croot/pyyaml_1728657952215/work
-referencing==0.37.0
-requests==2.32.5
-rpds-py==0.28.0
-shapely==2.1.2
-six @ file:///croot/six_1744271502820/work
-smmap==5.0.2
-sortedcontainers @ file:///tmp/build/80754af9/sortedcontainers_1623949099177/work
-soupsieve==2.8
-streamlit==1.51.0
-streamlit-folium==0.25.3
-tblib @ file:///croot/tblib_1749729848921/work
-tenacity==9.1.2
-toml==0.10.2
-toolz @ file:///croot/toolz_1736796253816/work
-tornado @ file:///croot/tornado_1748956929273/work
-typing_extensions==4.15.0
-tzdata @ file:///croot/python-tzdata_1746123641790/work
-urllib3 @ file:///croot/urllib3_1750775463400/work
-watchdog==6.0.0
-xyzservices @ file:///home/task_175872010690722/conda-bld/xyzservices_1758720200126/work
-yarl==1.22.0
-zict @ file:///croot/zict_1695832839030/work
-zipp @ file:///croot/zipp_1732630741423/work
+streamlit
+streamlit-folium
+streamlit-extras
+pandas
+geopandas
+folium
+branca
+matplotlib
+beautifulsoup4
+requests
+polars
+numpy
+pyarrow
