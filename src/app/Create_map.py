@@ -295,6 +295,7 @@ def create_map(city):
         name="Listings",
         style_function= markers_style,
         marker = folium.CircleMarker(fill_opacity=0.7, fill= True),
+        zoom_on_click= True,
         highlight_function = marker_highlight,
         #! code lấy từ streamlit-folium
         on_each_feature= folium.JsCode(POPUP)
