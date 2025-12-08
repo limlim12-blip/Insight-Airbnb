@@ -14,7 +14,10 @@ url = "https://insideairbnb.com/get-the-data/"
 script_dir = os.path.dirname(os.path.abspath(__file__))
 file_path = os.path.join(script_dir, '../../raw/currency.csv')
 currency_csv = pd.read_csv(file_path)
-LARGE_CITY =['Beijing, Beijing, China', 'New Zealand', 'Broward County, Florida, United States']
+#! city with >10gb data
+
+LARGE_CITY =['Paris, Île-de-France, France','New Zealand','London, England, United Kingdom','Rome, Lazio, Italy','Ireland','Los Angeles, California, United States','Lisbon, Lisbon, Portugal','Hawaii, Hawaii, United States','Sicily, Sicilia, Italy']
+
 
 
 @st.cache_data
@@ -25,6 +28,8 @@ def scrape_data():
 	all_cities_data = dict()
 	cities = soup.find_all("h3")
 	for city in cities:
+		if city.get_text(strip=True) in LARGE_CITY:
+			continue
 		all_cities_data[city.get_text(strip=True)] = []
 		table = city.find_next_sibling(class_=["data", "table", "table-hover", "table-striped"]).find_all("a")
 		for link in table:
@@ -111,7 +116,7 @@ def load_geojson(city = 'Singapore, Singapore, Singapore'):
 	
 
 	geojson_data = gpd.read_file(geojson_path, encoding='utf-8')
-	world_bounds = gpd.read_file("world.geojson",encoding='utf-8')
+	world_bounds = gpd.read_file(os.path.join(script_dir, '../../world.geojson'),encoding='utf-8')
 	end_time = time.perf_counter()
 	elapsed_time = end_time - start_time
 	print(f"geojson executed in {elapsed_time:.4f} seconds.")
