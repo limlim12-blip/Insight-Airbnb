@@ -35,6 +35,15 @@ To run this project locally, you need Python installed on your system.
 git clone <repository_url>
 cd Insight-Airbnb-main
 ````
+### Optional Step: Get initial data
+
+The application requires raw data for cities like Singapore, Bangkok, and Taipei to function correctly when offline. The data is expected to be organized in the `raw/<city>/<snapshot_date>` structure.
+
+Run the following script to download and structure the initial datasets:
+
+```bash
+python src/Get_raw.py
+```
 
 ### Step 2: Install dependencies
 
@@ -61,4 +70,10 @@ The application will automatically open in your default web browser.
 4.  **Change City:** Click the **"ALL KIND OF CITIES"** popover button in the header to view and select different cities from the available list.
 5.  **More data visualization**: For a little more detail data exploration, you can check out **Map** at the **Menu** popover button
 
-    
+    The following is the revised README content in markdown code format, incorporating the instructions for running `src/Get_raw.py` to obtain data for multiple cities.
+
+
+
+
+
+
