@@ -14,7 +14,7 @@ url = "https://insideairbnb.com/get-the-data/"
 script_dir = os.path.dirname(os.path.abspath(__file__))
 file_path = os.path.join(script_dir, '../../raw/currency.csv')
 currency_csv = pd.read_csv(file_path)
-
+LARGE_CITY =['Beijing, Beijing, China', 'New Zealand', 'Broward County, Florida, United States']
 
 
 @st.cache_data

@@ -14,7 +14,7 @@ def load_data(city):
     
     # get singapore bounds
     geojson_data, world_bounds = load_geojson(city)
-    vignette_area = world_bounds.union_all() - geojson_data.union_all()
+    vignette_area = world_bounds.geometry.buffer(0).union_all() -geojson_data.geometry.buffer(0).union_all()
 
     # heatmap
     heatmap_data = df[["latitude", "longitude", "price"]].dropna()
